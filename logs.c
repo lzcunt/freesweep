@@ -128,7 +128,7 @@ static void log_display(const char *mesg) {
   // Display the message on the screen.
   if (log_win) {
     wclear(log_win);
-    mvwprintw(log_win, 0, 0, mesg);
+    mvwprintw(log_win, 0, 0, "%s", mesg);
     wnoutrefresh(log_win);
     wrefresh(log_win);
   }
