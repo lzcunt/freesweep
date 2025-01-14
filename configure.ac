@@ -32,7 +32,6 @@ AC_TYPE_SIZE_T
 AC_TYPE_UID_T
 
 # Checks for library functions.
-AC_FUNC_MALLOC
 AC_CHECK_FUNCS([alarm getcwd memset mkdir setlocale strdup strncasecmp
                 fileno flock lockf getopt getopt_long])
 
