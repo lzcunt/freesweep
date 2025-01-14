@@ -32,6 +32,10 @@
 #include <string.h>
 #endif /* HAVE_STRING_H */
 
+#ifdef HAVE_STRINGS_H
+#include <strings.h>
+#endif /* HAVE_STRINGS_H */
+
 #ifdef HAVE_GETOPT_H
 #include <getopt.h>
 #endif /* HAVE_GETOPT_H */
